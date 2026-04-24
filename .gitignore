@@ -1,0 +1,94 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+.ipynb_checkpoints/
+
+# ============================================================
+# Sanal Ortam / Virtual Environment
+# ============================================================
+.venv/
+venv/
+env/
+
+# ============================================================
+# İşletim Sistemi Dosyaları / OS Files
+# ============================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# ============================================================
+# IDE / Editör Dosyaları
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# ============================================================
+# Büyük / Yeniden Üretilebilir Veri Dosyaları
+# ============================================================
+# Ana ham veri dosyası - pipeline'dan yeniden üretilebilir
+sp500_olay_calismasi_ham_veri.csv
+
+# Derin öğrenme hazır veri - hazirlik.ipynb ile yeniden üretilir
+derin_ogrenme_hazir_veri.csv
+
+# Eski veri çekimi çıktıları
+finance_data/
+ALL_TICKERS_2010_2026.csv
+
+# ============================================================
+# Gereksiz / Arşivlenen Dosyalar
+# ============================================================
+# Eski veri çekimi notebook'u (Veri_Hatti.ipynb tarafından ikame edildi)
+finans_veri_cekimi.ipynb
+
+# Basitleştirilmiş analiz notebook'u (EDA_GELISMIS tarafından ikame edildi)
+sp500_sektor_analiz.ipynb
+
+# Sunum dosyası (kişisel metadata içeriyor)
+Sunum_SP500_Olay_Calismasi.pdf
+
+# Markdown dokümantasyon
+sp500_olay_calismasi_eda_GELISMIS.md
+
+# Sonuç ve rehber dosyaları
+sonuclar,verihatti,rehber/ozet_sonuclar.txt
+sonuclar,verihatti,rehber/sunum_rehberi.md
+
+# ============================================================
+# Diğer
+# ============================================================
+# AI agent / Gemini verileri
+.gemini/
+
+# Log dosyaları
+*.log
+
+# Ortam değişkenleri (API key vb.)
+.env

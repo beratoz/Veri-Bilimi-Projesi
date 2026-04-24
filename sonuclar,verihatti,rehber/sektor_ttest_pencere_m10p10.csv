@@ -1,0 +1,11 @@
+Hisse,Grup,n,Ortalama_AR_pencere,t_istatistik,p_deger,Anlamli_p05
+ITA,Odak_Sektor,75,-0.002014,-1.122354,0.265340,Hayir
+XLRE,Kontrol_Grubu,75,-0.001640,-0.995747,0.322618,Hayir
+XLV,Odak_Sektor,75,0.001036,0.923543,0.358726,Hayir
+CL=F,Emtia_Makro,75,-0.005206,-0.822867,0.413228,Hayir
+XLE,Odak_Sektor,75,-0.002239,-0.717278,0.475461,Hayir
+XLP,Kontrol_Grubu,75,0.001119,0.666217,0.507344,Hayir
+GLD,Emtia_Makro,75,0.001960,0.534290,0.594743,Hayir
+XLK,Odak_Sektor,75,-0.000487,-0.465931,0.642633,Hayir
+XLF,Odak_Sektor,75,0.000131,0.079568,0.936796,Hayir
+XLY,Kontrol_Grubu,75,0.000061,0.059270,0.952897,Hayir
