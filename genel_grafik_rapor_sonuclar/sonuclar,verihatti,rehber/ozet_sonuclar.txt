@@ -1,0 +1,50 @@
+S&P 500 SEKTOR ETF — MAKROEKONOMIK OLAY CALISMASI — OZET RAPOR
+======================================================================
+
+Olaylar: ABD_Secimleri_2016, ABD_Secimleri_2024, COVID19_Pandemisi_2020, Israil_Iran_2024, Rusya_Ukrayna_Savasi_2022
+Sektor/Hisse sayisi: 10
+
+1) AGREGE T-TESTI (T0 = 0, tum sektorler birlikte)
+   n = 50,  ortalama AR = -0.001284
+   t = -0.6436,  p = 0.522864  -->  H0 REDDEDILEMEDI (p>=0.05)
+
+2) SEKTOR BAZLI T-TESTLERI (T0 = 0)
+Hisse          Grup  n  Ortalama_AR_T0  Std_AR_T0  t_istatistik  p_deger Anlamli_p05
+  XLE   Odak_Sektor  5       -0.006499   0.009705     -1.497431 0.208632       Hayir
+  XLF   Odak_Sektor  5       -0.006393   0.012650     -1.130050 0.321627       Hayir
+  XLP Kontrol_Grubu  5       -0.006027   0.015559     -0.866213 0.435239       Hayir
+  XLK   Odak_Sektor  5        0.003202   0.009303      0.769510 0.484513       Hayir
+  ITA   Odak_Sektor  5       -0.005884   0.022807     -0.576849 0.594950       Hayir
+  GLD   Emtia_Makro  5        0.007542   0.029449      0.572666 0.597523       Hayir
+ XLRE Kontrol_Grubu  5       -0.000926   0.003765     -0.549926 0.611633       Hayir
+ CL=F   Emtia_Makro  5        0.000830   0.007948      0.233561 0.826792       Hayir
+  XLV   Odak_Sektor  5        0.000858   0.009668      0.198513 0.852325       Hayir
+  XLY Kontrol_Grubu  5        0.000462   0.006023      0.171443 0.872199       Hayir
+
+3) SEKTOR BAZLI CAR[-3,+3] T-TESTLERI
+Hisse          Grup  n_olay  Ortalama_CAR  Std_CAR  t_istatistik  p_deger Anlamli_p05
+ CL=F   Emtia_Makro       5     -0.042912 0.069625     -1.378150 0.240226       Hayir
+  XLF   Odak_Sektor       5      0.015644 0.031676      1.104317 0.331415       Hayir
+  XLV   Odak_Sektor       5      0.011622 0.023821      1.090908 0.336623       Hayir
+  GLD   Emtia_Makro       5     -0.025998 0.054595     -1.064787 0.346979       Hayir
+  XLE   Odak_Sektor       5     -0.034902 0.080964     -0.963937 0.389664       Hayir
+ XLRE Kontrol_Grubu       5     -0.010648 0.027295     -0.872348 0.432254       Hayir
+  XLP Kontrol_Grubu       5     -0.011822 0.036778     -0.718766 0.512034       Hayir
+  XLY Kontrol_Grubu       5     -0.006102 0.020957     -0.651057 0.550518       Hayir
+  XLK   Odak_Sektor       5      0.002214 0.028882      0.171385 0.872242       Hayir
+  ITA   Odak_Sektor       5      0.004453 0.068822      0.144688 0.891955       Hayir
+
+4) SEKTOR BAZLI GENIS PENCERE [-10,+10] T-TESTLERI
+Hisse          Grup  n  Ortalama_AR_pencere  t_istatistik  p_deger Anlamli_p05
+  ITA   Odak_Sektor 75            -0.002014     -1.122354 0.265340       Hayir
+ XLRE Kontrol_Grubu 75            -0.001640     -0.995747 0.322618       Hayir
+  XLV   Odak_Sektor 75             0.001036      0.923543 0.358726       Hayir
+ CL=F   Emtia_Makro 75            -0.005206     -0.822867 0.413228       Hayir
+  XLE   Odak_Sektor 75            -0.002239     -0.717278 0.475461       Hayir
+  XLP Kontrol_Grubu 75             0.001119      0.666217 0.507344       Hayir
+  GLD   Emtia_Makro 75             0.001960      0.534290 0.594743       Hayir
+  XLK   Odak_Sektor 75            -0.000487     -0.465931 0.642633       Hayir
+  XLF   Odak_Sektor 75             0.000131      0.079568 0.936796       Hayir
+  XLY Kontrol_Grubu 75             0.000061      0.059270 0.952897       Hayir
+
+
